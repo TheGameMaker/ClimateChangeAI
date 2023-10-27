@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+/* Generic Style for all */
+*{
+    margin: 0;
+    font-family: "Rowdies";
+    font-weight: 300;
+    color: white;
+}
+
+/*
+:root{
+    background-color: antiquewhite;
+}
+*/
+
+html{
+    height: 100%;
+    box-sizing: border-box;
+}
+
+:root body{
+    background-color: #111;
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+    padding-bottom: 6rem;
+    box-sizing: inherit;
+    background-clip: content-box;
+}
+
+footer{
+    background-color: #111;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+/* App Style */
+.app {
+    background-color: #111;
+}
+
+/* Main Banner Style */
+.mainbanner {
+    background-color: #111;
+    width: 99%;
+    margin: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.mainbanner h1{
+    font-weight: 700;
+    color: #AA66EA;
+}
+
+.mainbanner p{
+    font-weight: 400;
+    color: #AA66EA;
+    padding-left: 8.5rem;
+}
+
+/*Revist this in the future potentially just use an image for the whole banner */
+.mainbanner img{
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    margin-left: 94%;
+    margin-right: auto;
+    margin-bottom: -5%;
+}
+
+/* Main Footer Style
+.mainFooter {
+    background-color: antiquewhite;
+}
+*/
+
+/* list group style */
+.tabgroup{
+    background-color: #111;
+}
+
+.tabgroup ul{
+    text-align: center;
+    position: fixed;
+    left: 500px;
+    right: 150px;
+    top: 60px;
+    z-index: 10;
+}
+
+.tabgroup li:hover{ /*.list-group li:hover*/
+    color: #AA66EA
+}
+
+.tabgroup li{ /*.list-group .list-group-item*/
+    background-color: #1e1f26;
+    border-color: black;
+    color:white;
+}
+
+.tabgroup li.active{ /*.list-group .list-group-item.active*/
+    background-color:rgba(173, 105, 236, 0.2);
+    background-size: 100% 25%;
+    color: aquamarine;
+    border-color: black;
+}
+
+/* home page style 
+    background-image: url(assets/backgroundGame.png);
+    background-repeat: no-repeat;
+*/
+.homepage{
+    background-color: #1e1f26;
+    width: 90%;
+    margin: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 0.25rem;
+    padding-top: 150px;
+}
+
+.homepage h1 {
+    text-align: center;
+    font-weight: 700;
+    color: #AA66EA;
+}
+
+.homepage h3{
+    color:#AA66EA;
+}
+
+.homepage p{
+    font-size: large;
+    text-align: justify;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+/* Fantasy Park page style */
+.fantasypark{
+    background-color: #1e1f26;
+    width: 90%;
+    margin: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 0.25rem;
+    padding-top: 150px;
+}
+
+.fantasypark h1 {
+    text-align: center;
+    font-weight: 700;
+    color: #AA66EA;
+}
+
+.fantasypark h3{
+    color:#AA66EA;
+}
+
+.fantasypark p {
+    font-size: large;
+    text-align: justify;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.fantasypark strong{
+    color: #AA66EA;
+}
+
+/* Team page style */
+.teampage{
+    background-color: #1e1f26;
+    width: 90%;
+    margin: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 0.25rem;
+    padding-top: 150px;
+}
+
+.teampage h1 {
+    text-align: center;
+    font-weight: 700;
+    color: #AA66EA;
+}
+
+.teampage h3{
+    color: #AA66EA;
+}
+
+/* Services page style */
+.servicespage{
+    background-color: #1e1f26;
+    width: 90%;
+    margin: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 0.25rem;
+    padding-top: 150px;
+}
+
+.servicespage h1 {
+    text-align: center;
+    font-weight: 700;
+    color: #AA66EA;
+}
+
+.servicespage h3{
+    color: #AA66EA;
+}
+
+.servicespage p{
+    font-size: large;
+    text-align: justify;
+}
