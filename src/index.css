@@ -82,17 +82,16 @@ html{
     }
 }
 
-@media (max-width: 439px) {
+@media (max-width: 487px) {
     .tabgroup ul{
         font-size: 1rem;
-        left: 650px;
-        right: 150px;
-        top: 130px;
-        zoom: 50%;
+        left: 500px;
+        right: 100px;
+        top: 110px;
     }
 
     :root body{
-        zoom: 50%;
+        zoom: 25%;
     }
 }
 
