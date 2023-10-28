@@ -13,7 +13,7 @@ function TabGroup({ tabs }: TabGroupProps) {
 
   return (
     <div className="tabgroup">
-      <ul className="list-group list-group-horizontal-xl">
+      <ul className="list-group list-group-horizontal">
         {tabs.map((tab, index) => (
           <li
             className={

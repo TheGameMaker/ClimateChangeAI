@@ -34,7 +34,7 @@ function GamePage() {
     <p><strong>💼	Manage Your Park: </strong>
     Keep an eye on your park's finances, attend to visitor needs, and optimize your park for maximum fun and profit. Can you strike the perfect balance between thrilling rides and family-friendly attractions?
     </p>
-    <p><strong>🌎	Spectacular Enviornments: </strong>
+    <p><strong>🌎	Spectacular Environments: </strong>
     Build your park in a variety of stunning and immersive environments. From lush, tropical paradises to futuristic sci-fi worlds, the choice is yours.
     </p>
     <p><strong>🧪 Realistic Physics: </strong>

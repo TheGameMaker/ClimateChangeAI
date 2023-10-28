@@ -19,6 +19,57 @@ html{
     box-sizing: border-box;
 }
 
+@media (max-width:2000px) {
+    .tabgroup ul{
+        text-align: center;
+        position: fixed;
+        left: 500px;
+        right: 150px;
+        top: 60px;
+        z-index: 10;
+    }
+}
+
+@media (max-width:1058px) {
+    .tabgroup ul{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 1005px) {
+    .tabgroup ul{
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width: 954px) {
+    .tabgroup ul{
+        font-size: 1rem;
+        left: 600px;
+        right: 250px;
+        top: 60px;
+        zoom: 75%;
+    }
+
+    :root body{
+        zoom: 75%;
+    }
+}
+
+@media (max-width: 717px) {
+    .tabgroup ul{
+        font-size: 1rem;
+        left: 550px;
+        right: 250px;
+        top: 60px;
+        zoom: 70%;
+    }
+
+    :root body{
+        zoom: 70%;
+    }
+}
+
 :root body{
     background-color: #111;
     position: relative;
@@ -84,15 +135,6 @@ footer{
 /* list group style */
 .tabgroup{
     background-color: #111;
-}
-
-.tabgroup ul{
-    text-align: center;
-    position: fixed;
-    left: 500px;
-    right: 150px;
-    top: 60px;
-    z-index: 10;
 }
 
 .tabgroup li:hover{ /*.list-group li:hover*/
