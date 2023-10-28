@@ -82,6 +82,20 @@ html{
     }
 }
 
+@media (max-width: 439px) {
+    .tabgroup ul{
+        font-size: 1rem;
+        left: 650px;
+        right: 150px;
+        top: 130px;
+        zoom: 50%;
+    }
+
+    :root body{
+        zoom: 50%;
+    }
+}
+
 :root body{
     background-color: #111;
     position: relative;
