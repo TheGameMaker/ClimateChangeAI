@@ -33,40 +33,52 @@ html{
 @media (max-width:1058px) {
     .tabgroup ul{
         font-size: 0.8rem;
+        left: 450px;
+        right: 100px;
     }
 }
 
-@media (max-width: 1005px) {
-    .tabgroup ul{
-        font-size: 0.6rem;
-    }
-}
 
-@media (max-width: 954px) {
-    .tabgroup ul{
-        font-size: 1rem;
-        left: 600px;
-        right: 250px;
-        top: 60px;
-        zoom: 75%;
-    }
 
-    :root body{
-        zoom: 75%;
-    }
-}
-
-@media (max-width: 717px) {
+@media (max-width: 905px) {
     .tabgroup ul{
         font-size: 1rem;
         left: 550px;
-        right: 250px;
+        right: 150px;
         top: 60px;
+        zoom: 75%;
+    }
+
+    :root body{
+        zoom: 75%;
+    }
+}
+
+@media (max-width: 632px) {
+    .tabgroup ul{
+        font-size: 1rem;
+        left: 500px;
+        right: 100px;
+        top: 90px;
         zoom: 70%;
     }
 
     :root body{
         zoom: 70%;
+    }
+}
+
+@media (max-width: 428px) {
+    .tabgroup ul{
+        font-size: 1rem;
+        left: 500px;
+        right: 100px;
+        top: 90px;
+        zoom: 60%;
+    }
+
+    :root body{
+        zoom: 60%;
     }
 }
 
