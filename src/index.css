@@ -71,7 +71,7 @@ html{
 @media (max-width: 428px) {
     .tabgroup ul{
         font-size: 1rem;
-        left: 500px;
+        left: 600px;
         right: 100px;
         top: 90px;
         zoom: 60%;
