@@ -253,6 +253,14 @@ footer{
     justify-content: center;
 }
 
+.basedefense h2{
+    text-align: center;
+}
+
+.basedefense p{
+    text-align: center;
+}
+
 /* Team page style */
 .teampage{
     background-color: #1e1f26;
