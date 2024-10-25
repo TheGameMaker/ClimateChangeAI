@@ -3,6 +3,7 @@ import HomePage from "./HomePage";
 import GamePage from "./FantasyParkVRPage";
 import TeamPage from "./TeamPage";
 import ServicesPage from "./ServicesPage";
+import GameView from "./BaseDefensePage";
 
 interface TabGroupProps {
   tabs: string[];
@@ -32,8 +33,9 @@ function TabGroup({ tabs }: TabGroupProps) {
       </ul>
       {selectedIndex == 0 ? <HomePage /> : <></>}
       {selectedIndex == 1 ? <GamePage /> : <></>}
-      {selectedIndex == 2 ? <TeamPage /> : <></>}
-      {selectedIndex == 3 ? <ServicesPage /> : <></>}
+      {selectedIndex == 2 ? <GameView /> : <></>}
+      {selectedIndex == 3 ? <TeamPage /> : <></>}
+      {selectedIndex == 4 ? <ServicesPage /> : <></>}
     </div>
   );
 }
