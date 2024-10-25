@@ -17,7 +17,7 @@ function GameView() {
         to the Hololens2 and Quest 3 for true Augmented Reality. The Idea is to
         bring real time strategy games to the real world so you can play them on
         your table or floor. Potentially Making games like warhammer more
-        immersive. This is we WebGL form of the app so you can play the game
+        immersive. This is a WebGL form of the app so you can play the game
         without access to these headsets. I hope you enjoy!
       </p>
       <Unity
