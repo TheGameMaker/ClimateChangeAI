@@ -7,7 +7,7 @@ import musicvisualizer2 from "../assets/musicvisualizer2.png";
 import musicvisualizer3 from "../assets/musicvisualizer3.png";
 import ImageGallery from "react-image-gallery";
 import 'react-image-gallery/styles/css/image-gallery.css';
-import { useRef } from "react";
+//import { useRef } from "react";
 
 
 function HomePage() {
