@@ -1,4 +1,14 @@
 import background from "../assets/backgroundGame.png";
+import basedefense1 from "../assets/basedefense1.png";
+import basedefense2 from "../assets/basedefense2.png";
+import basedefense3 from "../assets/basedefense3.png";
+import musicvisualizer1 from "../assets/musicvisualizer1.png";
+import musicvisualizer2 from "../assets/musicvisualizer2.png";
+import musicvisualizer3 from "../assets/musicvisualizer3.png";
+import ImageGallery from "react-image-gallery";
+import 'react-image-gallery/styles/css/image-gallery.css';
+import { useRef } from "react";
+
 
 function HomePage() {
   return (
@@ -16,6 +26,44 @@ function HomeHeader() {
 
 //    <img src={background} alt="middlePic" />
 function TestHomePage() {
+  const images = [
+    {
+      original: background,//"https://picsum.photos/id/1018/1000/600/",
+      thumbnail: background,//"https://picsum.photos/id/1018/250/150/",
+    },
+    {
+      original: basedefense1,//"https://picsum.photos/id/1015/1000/600/",
+      thumbnail: basedefense1,//"https://picsum.photos/id/1015/250/150/",
+    },
+    {
+      original: basedefense2,//"https://picsum.photos/id/1019/1000/600/",
+      thumbnail: basedefense2,//"https://picsum.photos/id/1019/250/150/",
+    },
+    {
+      original: basedefense3,
+      thumbnail: basedefense3,
+    },
+    {
+      original: musicvisualizer1,
+      thumbnail: musicvisualizer1,
+    },
+    {
+      original: musicvisualizer2,
+      thumbnail: musicvisualizer2,
+    },
+    {
+      original: musicvisualizer3,
+      thumbnail: musicvisualizer3,
+    },
+  ];
+
+  //const ImageGalleryRef = useRef(ImageGallery);
+  //const ImageGalleryRef = createRef();
+
+  //function getGalleryIndex(){
+    //ImageGalleryRef.current.
+  //}
+
   return (
     <>
     <h2>Welcome to Lucid Gaming Studios</h2>
@@ -34,11 +82,11 @@ function TestHomePage() {
     Join us on this incredible journey, and let's create gaming experiences that leave a mark on the world. 
     Dream with us, play with us, and together, we'll redefine the gaming landscape.
     </p>
-    <h2>Our Work</h2>
+    <h2 style = {{textAlign: "center"}}>Our Work</h2>
     <>
-    <h3>Fantasy Park VR image here <img src={background} alt="inlinePic" /></h3>
-    <h3>Music Visualizer image here</h3>
-    <h3>Other Team work here</h3>
+    <ImageGallery items={images} 
+      //ref = {ImageGalleryRef => this: ImageGallery = ImageGalleryRef}
+    />
     </>
     <h2>Company Goals</h2>
     <p>
@@ -92,5 +140,6 @@ function TestHomePage() {
 }
 
 //<img src={background} alt="bottomPic" />
+//    <h3>Fantasy Park VR <img src={background} alt="FantasyPark Coaster Example" /></h3>
 
 export default HomePage;

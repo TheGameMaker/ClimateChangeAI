@@ -35,7 +35,8 @@ function TabGroup({ tabs }: TabGroupProps) {
       {selectedIndex == 1 ? <GamePage /> : <></>}
       {selectedIndex == 2 ? <GameView /> : <></>}
       {selectedIndex == 3 ? <TeamPage /> : <></>}
-      {selectedIndex == 4 ? <ServicesPage /> : <></>}
+      {selectedIndex == 4 ? <TeamPage /> : <></>}
+      {selectedIndex == 5 ? <ServicesPage /> : <></>}
     </div>
   );
 }

@@ -3,9 +3,9 @@ function MainFooter() {
     <div className="mainFooter">
       <p>
         Copyright &copy; {(new Date().getFullYear())} Lucid Gaming LLC - All Rights Reserved
-      </p>
-      <p>
-      Will put contact info and page ref here for all pages to see. Maybe support/contact us quote.
+        <p>
+          Phone: 571-355-0847 <p>Email: clark@lucidgamingstudios.com</p>
+        </p>
       </p>
     </div>
   );

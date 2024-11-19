@@ -3,7 +3,7 @@ import TabGroup from "./components/TabGroup";
 import MainFooter from "./components/MainFooter";
 
 function App() {
-  let tabs = ["Home", "Fantasy Park VR", "Base Defense", "Team", "Services"];
+  let tabs = ["Home", "Fantasy Park VR", "Base Defense", "Music Visualizer", "Team", "Services"];
 
   return (
     <div className="app">

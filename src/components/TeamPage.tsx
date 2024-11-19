@@ -21,11 +21,11 @@ function TeamPage() {
         We are committed to pushing the boundaries of gaming, ensuring that each project surpasses expectations.
       </p>
       <h3>Clark</h3>
-      <p>CEO, Lead programmer and developer</p>
+      <p>CEO, Lead programmer, Developer and Web Designer</p>
       <h3>Michael</h3>
       <p>3D modeling and level design</p>
       <h3>Aya</h3>
-      <p>2D artist, web design and marketing</p>
+      <p>2D artist</p>
       <h3>Lusif</h3>
       <p>Game Developer and level design</p>
       <h2>Join Us</h2>
