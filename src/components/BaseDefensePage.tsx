@@ -28,6 +28,10 @@ function GameView() {
           alignSelf: "center",
         }}
       />
+      <h2>Updates</h2>
+      <p>
+        - Added ability to train troops and build towers
+      </p>
     </div>
   );
 }

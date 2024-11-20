@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 function GamePage() {
     return (
       <div className="fantasypark">
@@ -13,6 +15,23 @@ function GamePage() {
   }
   
   function TestHomePage() {
+    const YoutubeEmbed = ({ embedId} : {embedId: string}) => (
+      <div className="video-responsive">
+        <iframe
+          width="853"
+          height="480"
+          src={`https://www.youtube.com/embed/${embedId}`}
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          title="Embedded youtube"
+        />
+      </div>
+    );
+    YoutubeEmbed.propTypes = {
+      embedId: PropTypes.string.isRequired
+    };
+
     return (
     <>
     <h2>Welcome to Fantasy Park VR!</h2>
@@ -28,9 +47,11 @@ function GamePage() {
     <p><strong>🏟️ Build Your Dream Park: </strong>
     Expand your park with a wide variety of attractions, from gentle carousels to heart-stopping thrill rides. Craft the perfect park layout to keep your visitors entertained and coming back for more.
     </p>
+    <YoutubeEmbed embedId="urDNsgs71Ws?si=3w68MNCtkerLAZ1X" />
     <p><strong>🎮	Ride in First-Person: </strong>
     Experience the thrill of riding your creations in first-person VR mode. Feel the rush of wind, the twists, and turns, and the sheer excitement of your own rollercoasters.
     </p>
+    <YoutubeEmbed embedId="A7agiPC5jUE?si=60GbT3ppJpYCmqu-" />
     <p><strong>💼	Manage Your Park: </strong>
     Keep an eye on your park's finances, attend to visitor needs, and optimize your park for maximum fun and profit. Can you strike the perfect balance between thrilling rides and family-friendly attractions?
     </p>

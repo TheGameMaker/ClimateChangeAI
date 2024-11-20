@@ -1,4 +1,6 @@
 import background from "../assets/backgroundGame.png";
+import fantasypark2 from "../assets/Fantasypark2.png";
+import fantasypark3 from "../assets/fantasypark3.png";
 import basedefense1 from "../assets/basedefense1.png";
 import basedefense2 from "../assets/basedefense2.png";
 import basedefense3 from "../assets/basedefense3.png";
@@ -30,6 +32,14 @@ function TestHomePage() {
     {
       original: background,//"https://picsum.photos/id/1018/1000/600/",
       thumbnail: background,//"https://picsum.photos/id/1018/250/150/",
+    },
+    {
+      original: fantasypark2,
+      thumbnail: fantasypark2,
+    },
+    {
+      original: fantasypark3,
+      thumbnail: fantasypark3,
     },
     {
       original: basedefense1,//"https://picsum.photos/id/1015/1000/600/",
