@@ -11,7 +11,7 @@ function MainBanner() {
 
 function BannerHeader() {
   //add images later for now just text
-  return <picture><img src={logo} alt="inlinePic" /><h1>Lucid Gaming Studios</h1></picture>;
+  return <picture><img src={logo} alt="inlinePic" /><h1>Namer Technology</h1></picture>;
 }
 
 function BannerFooter() {
