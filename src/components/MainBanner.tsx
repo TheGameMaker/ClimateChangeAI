@@ -1,4 +1,4 @@
-import logo from "../assets/LGLogo.png";
+import logo from "../assets/earth.png";
 
 function MainBanner() {
   return (
@@ -11,11 +11,11 @@ function MainBanner() {
 
 function BannerHeader() {
   //add images later for now just text
-  return <picture><img src={logo} alt="inlinePic" /><h1>Namer Technology</h1></picture>;
+  return <picture><img src={logo} alt="inlinePic" /><h1>Nam ER Technology</h1></picture>;
 }
 
 function BannerFooter() {
-  return <p>Unleashing Dreams, Forging Realities </p>;
+  return <p>Our Solution For Change</p>;
 }
 
 export default MainBanner;

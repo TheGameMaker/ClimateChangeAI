@@ -132,20 +132,18 @@ footer{
 
 .mainbanner h1{
     font-weight: 700;
-    color: #AA66EA;
+    color: #11bf0d;
 }
 
 .mainbanner p{
     font-weight: 400;
-    color: #AA66EA;
+    color: #11bf0d;
     padding-left: 8.5rem;
 }
 
 /*Revist this in the future potentially just use an image for the whole banner */
 .mainbanner img{
     width: 100px;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
     margin-left: 94%;
     margin-right: auto;
     margin-bottom: -5%;
@@ -163,7 +161,7 @@ footer{
 }
 
 .tabgroup li:hover{ /*.list-group li:hover*/
-    color: #AA66EA
+    color: green;
 }
 
 .tabgroup li{ /*.list-group .list-group-item*/
@@ -173,9 +171,9 @@ footer{
 }
 
 .tabgroup li.active{ /*.list-group .list-group-item.active*/
-    background-color:rgba(173, 105, 236, 0.2);
+    background-color: rgba(0, 255, 255, 0.4);
     background-size: 100% 25%;
-    color: aquamarine;
+    color: #11bf0d;
     border-color: black;
 }
 
@@ -196,11 +194,19 @@ footer{
 .homepage h1 {
     text-align: center;
     font-weight: 700;
-    color: #AA66EA;
+    color: #11bf0d;
+}
+
+.homepage h2{
+    text-align: center;
 }
 
 .homepage h3{
-    color:#AA66EA;
+    color:#11bf0d;
+}
+
+.homepage h4{
+    text-align: center;
 }
 
 .homepage p{
@@ -208,4 +214,8 @@ footer{
     text-align: justify;
     padding-left: 3rem;
     padding-right: 3rem;
+}
+
+.homepage strong{
+    color: #11bf0d;
 }

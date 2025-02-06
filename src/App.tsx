@@ -3,7 +3,7 @@ import TabGroup from "./components/TabGroup";
 import MainFooter from "./components/MainFooter";
 
 function App() {
-  let tabs = ["Climate Change AI"];
+  let tabs = ["Gaia AI", "Research Hub", "Collaboration Tools"];
 
   return (
     <div className="app">

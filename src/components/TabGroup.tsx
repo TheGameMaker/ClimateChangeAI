@@ -1,5 +1,7 @@
 import { useState } from "react";
 import HomePage from "./HomePage";
+import ResearchPage from "./ResearchHub";
+import CollaborationPage from "./CollaborationTools";
 
 interface TabGroupProps {
   tabs: string[];
@@ -28,6 +30,8 @@ function TabGroup({ tabs }: TabGroupProps) {
         ))}
       </ul>
       {selectedIndex == 0 ? <HomePage /> : <></>}
+      {selectedIndex == 1 ? <ResearchPage /> : <></>}
+      {selectedIndex == 2 ? <CollaborationPage /> : <></>}
     </div>
   );
 }
